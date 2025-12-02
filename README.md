@@ -33,3 +33,8 @@ http://localhost:3000
 ## Common problems
 - ERR_CONNECTION_REFUSED -> make sure npm start is running and the port (3000) is free.
 - 401/403 from Riot → check RIOT_API_KEY.
+
+## Images
+![Preview 1](/images/lolmt1.png "View of site")
+![Preview 1](/images/lolmt2.png "View of site with Summoner's recent matches")
+![Preview 3](/images/lolmt3.png "View of site with Summoner's recent matches")
