@@ -1,25 +1,37 @@
-# Rock-Solid-LoL-Match-Tracker
-A project to test out the Riot API and create a LoL Match Tracker. It served me as a learning resource,
+# 🗿 Rock-Solid League of Legends Match Tracker
+A simple front-end project to test out the Riot API and create a LoL Match Tracker. It served me as a learning resource.
+
+This shows the user's recent matches with stats from the Riot API. Similar to well-known sites that use the same method to obtain data.
 
 Feel free to use it in any ways.
 
+## Requirements
+- Node.js
+- Riot API Key [Riot Developer Platform](https://developer.riotgames.com/)
+
 ## How to use it
 
-1. Import all files.
-2. Take your Developer API Key from [Riot Developer Platform](https://developer.riotgames.com/).
-3. Open `.env` file. 
-4. Fill `RIOT_API_KEY=` with Your API Key. Set your region in `REGION=`.
+1. Clone repo.
+3. Take your Developer API Key from [Riot Developer Platform](https://developer.riotgames.com/).
+4. Create/Open an `.env` file. 
+5. Fill `RIOT_API_KEY=` with Your API Key. Set your region in `REGION=`.
 ###### `.env` Should look like that:
 
 ```
-RIOT_API_KEY=RGAPI-7cf85766-d492-401c-82a0-7155713f692f
+RIOT_API_KEY=RGAPI-XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 PORT=3000
-REGION=eun1
+REGION=euw1
 ```
-5. Open your console and run the localhost server. I was using:
+5. Run server + proxy:
 ```
 cd .../lol-match-tracker
 npm install
 npm start
 ```
-6. Enter `localhost:3000` on your browser and enjoy.
+6. Open in the browser:
+```
+http://localhost:3000
+```
+## Common problems
+- ERR_CONNECTION_REFUSED -> make sure npm start is running and the port (3000) is free.
+- 401/403 from Riot → check RIOT_API_KEY.
