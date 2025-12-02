@@ -36,5 +36,9 @@ http://localhost:3000
 
 ## Images
 ![Preview 1](/images/lolmt1.png "View of site")
+
+
 ![Preview 1](/images/lolmt2.png "View of site with Summoner's recent matches")
+
+
 ![Preview 3](/images/lolmt3.png "View of site with Summoner's recent matches")
