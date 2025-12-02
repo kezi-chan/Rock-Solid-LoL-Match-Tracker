@@ -7,7 +7,7 @@ Feel free to use it in any ways.
 
 ## Requirements
 - Node.js
-- Riot API Key [Riot Developer Platform](https://developer.riotgames.com/)
+- Riot API Key ([Riot Developer Platform](https://developer.riotgames.com/))
 
 ## How to use it
 
