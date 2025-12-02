@@ -1,0 +1,14 @@
+:root {
+    --primary-color: #1e90ff;
+    --secondary-color: #ff6347;
+    --background-color: #f4f4f4;
+    --text-color: #333;
+    --header-background: #333;
+    --header-text-color: #fff;
+    --footer-background: #333;
+    --footer-text-color: #fff;
+    --card-background: #fff;
+    --card-border-radius: 8px;
+    --loader-color: rgb(124, 124, 124);
+    --font-family: 'Arial', sans-serif;
+}
