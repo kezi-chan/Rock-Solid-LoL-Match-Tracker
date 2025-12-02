@@ -14,7 +14,7 @@ Feel free to use it in any ways.
 1. Clone repo.
 3. Take your Developer API Key from [Riot Developer Platform](https://developer.riotgames.com/).
 4. Create/Open an `.env` file. 
-5. Fill `RIOT_API_KEY=` with Your API Key. Set your region in `REGION=`.
+5. Fill `RIOT_API_KEY=` with Your API Key. Set your region in `REGION=`:
 ```
 RIOT_API_KEY=RGAPI-XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 PORT=3000
