@@ -11,7 +11,7 @@ Project made by me from scratch. Feel free to use it in any ways / however You l
 
 ## How to setup and use it
 
-1. Clone repo.
+1. Clone repo `lol-match-tracker`.
 2. Take your Developer API Key from [Riot Developer Platform](https://developer.riotgames.com/).
 3. Create a `.env` file in directionary -> `lol-match-tracker\.env`:
 ```
