@@ -1,38 +1,39 @@
 # 🗿 Rock-Solid League of Legends Match Tracker
 A simple front-end project to test out the Riot API and create a LoL Match Tracker. It served me as a learning resource.
 
-This shows the user's recent matches with stats from the Riot API. Similar to well-known sites that use the same method to obtain data.
+This shows the user's recent matches with statistics, items, spells, stats/min from the Riot API. Similar to well-known sites that use the same method to obtain data.
 
-Feel free to use it in any ways.
+Project made by me from scratch. Feel free to use it in any ways / however You likes.
 
 ## Requirements
 - Node.js
 - Riot API Key ([Riot Developer Platform](https://developer.riotgames.com/))
 
-## How to use it
+## How to setup and use it
 
 1. Clone repo.
-3. Take your Developer API Key from [Riot Developer Platform](https://developer.riotgames.com/).
-4. Create/Open an `.env` file. 
-5. Fill `RIOT_API_KEY=` with Your API Key. Set your region in `REGION=`:
+2. Take your Developer API Key from [Riot Developer Platform](https://developer.riotgames.com/).
+3. Create a `.env` file in directionary -> `lol-match-tracker\.env`:
 ```
 RIOT_API_KEY=RGAPI-XXXXXXXX-XXXX-XXXX-XXXX-XXXXXXXXXXXX
 PORT=3000
 REGION=euw1
 ```
-5. Run server + proxy:
+> Your's `RIOT_API_KEY` & `REGION` (examples: `eun1`, `kr1`, `na1`)
+
+4. Run server & proxy in CMD/PowerShell:
 ```
 cd .../lol-match-tracker
 npm install
 npm start
 ```
-6. Open in the browser:
+5. Open in the browser:
 ```
 http://localhost:3000
 ```
 ## Troubleshot
-- ERR_CONNECTION_REFUSED -> make sure npm start is running and the port (3000) is free.
-- 401/403 from Riot -> check RIOT_API_KEY.
+- `ERR_CONNECTION_REFUSED` _(F12)_ -> make sure npm start is running and the `port 3000` is not used.
+- `401` or `403` from Riot -> check `RIOT_API_KEY` in `.env`.
 
 ## Images
 ![Preview 1](/images/lolmt1.png "View of site")
