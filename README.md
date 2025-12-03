@@ -30,9 +30,9 @@ npm start
 ```
 http://localhost:3000
 ```
-## Common problems
+## Troubleshot
 - ERR_CONNECTION_REFUSED -> make sure npm start is running and the port (3000) is free.
-- 401/403 from Riot → check RIOT_API_KEY.
+- 401/403 from Riot -> check RIOT_API_KEY.
 
 ## Images
 ![Preview 1](/images/lolmt1.png "View of site")
