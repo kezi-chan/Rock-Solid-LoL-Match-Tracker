@@ -3,7 +3,7 @@ A simple front-end project to test out the Riot API and create a LoL Match Track
 
 This shows the user's recent matches with statistics, items, spells, stats/min from the Riot API. Similar to well-known sites that use the same method to obtain data.
 
-Project made by me from scratch. Feel free to use it in any ways / however You like.
+Project made by me from scratch. Feel free to use it in however You like.
 
 ## Requirements
 - Node.js
